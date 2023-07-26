@@ -1,0 +1,31 @@
+{
+    "studyList": [
+        {
+            "patientName": "Anonymized2",
+            "patientId": "6e4da81a-7e91-4c09-9bd0-3fd4f24245e1",
+            "studyDate": "",
+            "modality": "Mamografia",
+            "studyDescription": "Mamografia",
+            "numImages": 4,
+            "studyId": "6e4da81a-7e91-4c09-9bd0-3fd4f24245e1"
+        },
+        {
+            "patientName": "Anonymized19",
+            "patientId": "acad98af-6aec-4f9d-a2ee-793aeed4fe57",
+            "studyDate": "",
+            "modality": "Mamografia",
+            "studyDescription": "Mamografia",
+            "numImages": 4,
+            "studyId": "acad98af-6aec-4f9d-a2ee-793aeed4fe57"
+        },
+        {
+            "patientName": "Anonymized31",
+            "patientId": "e08feb68-27c7-4c9e-a4b3-22504079f737",
+            "studyDate": "",
+            "modality": "01",
+            "studyDescription": "01",
+            "numImages": 8,
+            "studyId": "e08feb68-27c7-4c9e-a4b3-22504079f737"
+        }
+    ]
+}
