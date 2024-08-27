@@ -21,11 +21,13 @@
     "install": "cd src npm install",
     "dicom-server:local": "cd .. && cd dicom-server/ && npm run start:local",
     "dicom-server:multi": "cd .. && cd dicom-server/ && npm run start:multi",
+    "dicom-server:eitdigital": "cd .. && cd dicom-server/ && npm run start:eitdigital",
     "build": "webpack -p &",
     "build:local": "webpack -p &",
     "build:multi": "webpack -p &",
     "build:uta11": "webpack --mode production --env production &",
     "build:eia": "webpack --mode production --env production &",
+    "build:eitdigital": "webpack --mode production --env production &",
     "create:sl": "touch src/common/studyList.json",
     "clean:dataset": "rimraf dataset/*",
     "clean:studies": "rimraf src/common/studies/*",
@@ -40,6 +42,7 @@
     "start:multi": "npm run build:multi && npm run server && start:webdash",
     "start:uta11": "npm run build:uta11 && npm run server && start:webdash",
     "start:eia": "npm run build:eia && npm run server && start:webdash",
+    "start:eitdigital": "npm run build:eia && npm run server && start:webdash",
     "start": "npm run server"
   },
   "devDependencies": {
